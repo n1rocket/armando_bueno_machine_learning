@@ -1,0 +1,16 @@
+# Recomiendo ENCARECIDAMENTE usar anaconda.
+
+# Pero si aún así vas a usar virtualenv, recuerda cambiar el kernel del 
+# jupyter notebook para que funcione con él. Con virtualenv activado, ejecuta
+# python -m ipykernel install --user --name=venv
+
+# En ubuntu, además, para usar grpahviz hay que instalarlo:
+# sudo apt-get install graphviz
+
+numpy==1.22.3
+scikit-learn==1.0.2
+pandas==1.4.2
+matplotlib==3.5.2
+seaborn==0.11.2
+graphviz==0.20
+jupyterlab
